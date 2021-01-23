@@ -1,4 +1,5 @@
 #include<iostream>
+#include<conio.h>
 using namespace std;
 int min(int n,int *ptr){
     int mini=*ptr;
@@ -62,6 +63,7 @@ int main (){
             cout<<cmarr[e]<<endl;
         }*/
             cout<<ans;
+    getch();
         return 0;
         }
 
